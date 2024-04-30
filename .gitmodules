@@ -1,0 +1,3 @@
+[submodule "MyApplication/react-company"]
+	path = MyApplication/react-company
+	url = https://github.com/photochunjuti/testMyWeb.git
