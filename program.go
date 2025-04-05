@@ -15,7 +15,7 @@ import (
 
 func connnectMongoDB() (*mongo.Client, error) {
 	// set client options
-	client_options := options.Client().ApplyURI("mongodb://localhost:27017")
+	client_options := options.Client().ApplyURI("...")
 
 	// connect to mongoDB
 	client, err := mongo.Connect(context.Background(), client_options)
